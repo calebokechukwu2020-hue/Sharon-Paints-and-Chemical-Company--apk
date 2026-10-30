@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Gold Ring -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M50,4 C75.4,4 96,24.6 96,50 C96,75.4 75.4,96 50,96 C24.6,96 4,75.4 4,50 C4,24.6 24.6,4 50,4 Z" />
+
+    <!-- Dark Green Inner Disc -->
+    <path
+        android:fillColor="#065F46"
+        android:pathData="M50,8 C73.2,8 92,26.8 92,50 C92,73.2 73.2,92 50,92 C26.8,92 8,73.2 8,50 C8,26.8 26.8,8 50,8 Z" />
+
+    <!-- Thin Gold Ring -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M50,14 C69.9,14 86,30.1 86,50 C86,69.9 69.9,86 50,86 C30.1,86 14,69.9 14,50 C14,30.1 30.1,14 50,14 Z" />
+
+    <!-- Center White Shield Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,24 L72,32 C72,54 62,68 50,75 C38,68 28,54 28,32 Z" />
+
+    <!-- Green Nigerian Tri-Stripe in Shield -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M34,35 L44,35 L44,65 C41,62 38,58 35,52 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M56,35 L66,35 C65,52 62,58 59,62 L56,65 Z" />
+
+    <!-- Bold Gold letters 'S O N' across center -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M36,44 C36,42.5 37.5,41.5 39.5,41.5 C41.5,41.5 43,42.5 43,44 L40.5,44 C40.5,43.5 40.2,43 39.5,43 C38.8,43 38.5,43.5 38.5,44 C38.5,45.5 43,45 43,48 C43,49.5 41.5,50.5 39.5,50.5 C37.5,50.5 36,49.5 36,48 L38.5,48 C38.5,48.5 38.8,49 39.5,49 C40.2,49 40.5,48.5 40.5,48 C40.5,46.5 36,47 36,44 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M45,46 C45,43 47,41.5 50,41.5 C53,41.5 55,43 55,46 C55,49 53,50.5 50,50.5 C47,50.5 45,49 45,46 Z M52.5,46 C52.5,44.2 51.5,43.2 50,43.2 C48.5,43.2 47.5,44.2 47.5,46 C47.5,47.8 48.5,48.8 50,48.8 C51.5,48.8 52.5,47.8 52.5,46 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M57,41.8 L60,41.8 L63.5,47.8 L63.5,41.8 L65.5,41.8 L65.5,50.2 L62.5,50.2 L59,44.2 L59,50.2 L57,50.2 Z" />
+
+    <!-- Lower Banner -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M30,76 L70,76 L66,85 L34,85 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M38,79 L42,79 L42,80 L39,80 L39,81 L41.5,81 L41.5,82 L38,82 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M44,79 L48,79 L48,82 L46,82 L46,81 L44,81 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M50,79 L54,79 L54,82 L50,82 Z" />
+
+</vector>

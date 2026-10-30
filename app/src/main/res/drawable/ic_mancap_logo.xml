@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Ring Gold -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M50,4 C75.4,4 96,24.6 96,50 C96,75.4 75.4,96 50,96 C24.6,96 4,75.4 4,50 C4,24.6 24.6,4 50,4 Z" />
+
+    <!-- Inner Circle Forest Green -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M50,9 C72.6,9 91,27.4 91,50 C91,72.6 72.6,91 50,91 C27.4,91 9,72.6 9,50 C9,27.4 27.4,9 50,9 Z" />
+
+    <!-- White Inner Hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,22 C65.5,22 78,34.5 78,50 C78,65.5 65.5,78 50,78 C34.5,78 22,65.5 22,50 C22,34.5 34.5,22 50,22 Z" />
+
+    <!-- Nigeria Flag Bands (Green - White - Green) inside hub -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M32,38 L42,38 L42,62 L32,62 Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M42,38 L58,38 L58,62 L42,62 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M58,38 L68,38 L68,62 L58,62 Z" />
+
+    <!-- Checkmark of conformity -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M40,50 L47,57 L60,43" />
+
+    <!-- MANCAP arc text or badge banner -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,70 L76,70 L72,82 L28,82 Z" />
+
+    <!-- Letters M-A-N-C-A-P simplified graphic -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M32,73 L35,79 L37,75 L39,79 L42,73 L40,73 L38,76.5 L37,74.5 L36,76.5 L34,73 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M44,79 L47,73 L49,73 L52,79 L50,79 L49.3,77.5 L46.7,77.5 L46,79 Z M47.2,76 L48.8,76 L48,74.5 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M54,79 L54,73 L56,73 L59,77.5 L59,73 L61,73 L61,79 L59,79 L56,74.5 L56,79 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M63,74.5 C63.5,73.5 64.5,73 66,73 C67.5,73 68.5,73.8 68.5,75 L66.5,75 C66.5,74.5 66.2,74.2 65.8,74.2 C65.2,74.2 64.8,74.6 64.8,76 C64.8,77.4 65.2,77.8 65.8,77.8 C66.2,77.8 66.5,77.5 66.5,77 L68.5,77 C68.5,78.2 67.5,79 66,79 C64.5,79 63.5,78.5 63,77.5 Z" />
+
+</vector>

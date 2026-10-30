@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Navy / Slate Ring -->
+    <path
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M50,8 C73.2,8 92,26.8 92,50 C92,73.2 73.2,92 50,92 C26.8,92 8,73.2 8,50 C8,26.8 26.8,8 50,8 Z" />
+
+    <!-- Inner Circle with Blue Accent -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="1.5"
+        android:fillColor="#EFF6FF"
+        android:pathData="M50,14 C69.9,14 86,30.1 86,50 C86,69.9 69.9,86 50,86 C30.1,86 14,69.9 14,50 C14,30.1 30.1,14 50,14 Z" />
+
+    <!-- Diamond Quality Core -->
+    <path
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="2.5"
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,22 L75,50 L50,78 L25,50 Z" />
+
+    <!-- Letters 'NIS' inside diamond -->
+    <!-- N -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M34,44 L37,44 L43,53 L43,44 L46,44 L46,56 L43,56 L37,47 L37,56 L34,56 Z" />
+    <!-- I -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M48,44 L52,44 L52,56 L48,56 Z" />
+    <!-- S -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M54,45 C54,44.2 55.2,44 56.5,44 C58.2,44 59.2,44.5 59.2,45.5 L56.8,45.5 C56.8,45.2 56.5,45 56.2,45 C55.8,45 55.5,45.2 55.5,45.5 C55.5,46.5 59.5,46 59.5,48.5 C59.5,50 58,50.8 56.5,50.8 C54.8,50.8 53.8,50 53.8,48.8 L56.2,48.8 C56.2,49.2 56.5,49.5 57,49.5 C57.4,49.5 57.8,49.2 57.8,48.8 C57.8,47.8 54,48.2 54,45 Z" />
+
+    <!-- Quality Ribbon Tag -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M32,64 L68,64 L64,72 L36,72 Z" />
+
+    <!-- Star indicators -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M50,28 L51,31 L54,31 L52,33 L53,36 L50,34 L47,36 L48,33 L46,31 L49,31 Z" />
+
+</vector>
