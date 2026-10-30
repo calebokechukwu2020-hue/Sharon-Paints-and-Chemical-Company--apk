@@ -129,7 +129,7 @@ fun AdminPortalScreen(
                   value = adminCodeInput,
                   onValueChange = { viewModel.updateAdminCode(it) },
                   label = { Text("Enter Admin Confirmation Code") },
-                  placeholder = { Text("e.g. SHP-ADM-9021 or SHP-ADM-4185") },
+                  placeholder = { Text("e.g. SHP-ADA-0816 or SHP-ANI-0810") },
                   modifier = Modifier.fillMaxWidth().testTag("admin_code_input"),
                   singleLine = true
                 )

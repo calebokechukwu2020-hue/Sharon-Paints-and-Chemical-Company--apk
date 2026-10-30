@@ -41,16 +41,15 @@ class SharonRepository {
       category = PaintCategory.PREMIUM_MATT,
       shortDescription = "Ultra-rich designer matt paint with deep color saturation and washability.",
       fullDescription = "Part of our flagship Vineyard collection. Formulated for executive residences, corporate suites, and discerning interiors that demand total glare reduction and flawless elegance.",
-      availableSizes = listOf(PaintSize.SIZE_20L, PaintSize.SIZE_4L),
+      availableSizes = listOf(PaintSize.SIZE_20L),
       prices = mapOf(
-        PaintSize.SIZE_20L to 87400L,
-        PaintSize.SIZE_4L to 20070L
+        PaintSize.SIZE_20L to 47725L
       ),
       coverageSqmPerLiter = 12.0,
       dryingTimeHours = 1.5,
       recoatTimeHours = 3.0,
       recommendedCoats = 2,
-      finishType = "Ultra-Low Sheen Luxury Matt",
+      finishType = "Ultra-Low Sheen Luxury Matt (20L Drum)",
       suitableSurfaces = listOf("POP Screeded Walls", "Smooth Plaster", "Drywall"),
       applicationTools = listOf("Microfiber Roller", "Fine Bristle Brush"),
       imageResId = R.drawable.prod_sharon_vineyard_matt,
@@ -128,7 +127,7 @@ class SharonRepository {
       fullDescription = "Sharon Gold Matt represents the pinnacle of our interior wall paints. Offers superior hiding power, scrub resistance, and a warm rich tactile feel.",
       availableSizes = listOf(PaintSize.SIZE_20L),
       prices = mapOf(
-        PaintSize.SIZE_20L to 57500L
+        PaintSize.SIZE_20L to 28600L
       ),
       coverageSqmPerLiter = 12.5,
       dryingTimeHours = 1.0,
@@ -149,7 +148,7 @@ class SharonRepository {
       fullDescription = "Super Flex is formulated with 100% elastomeric polymers that stretch and bridge hairline cracks up to 1.5mm. Ideal for areas subject to vibration or settlement.",
       availableSizes = listOf(PaintSize.SIZE_20L),
       prices = mapOf(
-        PaintSize.SIZE_20L to 61350L
+        PaintSize.SIZE_20L to 87400L
       ),
       coverageSqmPerLiter = 8.0,
       dryingTimeHours = 2.0,
@@ -190,7 +189,7 @@ class SharonRepository {
       fullDescription = "Sharon Gloss Finish delivers a tough, scratch-resistant enamel film with outstanding gloss retention. Protects metal gates, burglar proofs, railings, and wooden joinery.",
       availableSizes = listOf(PaintSize.SIZE_4L),
       prices = mapOf(
-        PaintSize.SIZE_4L to 15035L
+        PaintSize.SIZE_4L to 17390L
       ),
       coverageSqmPerLiter = 14.0,
       dryingTimeHours = 4.0,
@@ -211,7 +210,7 @@ class SharonRepository {
       fullDescription = "Sharon Grape Yard Autoflex is an elastomeric high-performance automotive coating. Provides brilliant optical depth, exceptional color retention, and chemical resistance.",
       availableSizes = listOf(PaintSize.SIZE_4L),
       prices = mapOf(
-        PaintSize.SIZE_4L to 6880L
+        PaintSize.SIZE_4L to 14515L
       ),
       coverageSqmPerLiter = 15.0,
       dryingTimeHours = 0.5,
@@ -272,8 +271,8 @@ class SharonRepository {
       fullDescription = "Sharon Onyx provides excellent coverage at an economical price point. Ideal for rental apartments, warehouses, and extensive commercial spaces.",
       availableSizes = listOf(PaintSize.SIZE_20L, PaintSize.SIZE_4L),
       prices = mapOf(
-        PaintSize.SIZE_20L to 13400L,
-        PaintSize.SIZE_4L to 3970L
+        PaintSize.SIZE_20L to 14835L,
+        PaintSize.SIZE_4L to 4025L
       ),
       coverageSqmPerLiter = 8.0,
       dryingTimeHours = 1.5,
@@ -293,7 +292,7 @@ class SharonRepository {
       fullDescription = "High-porosity breathability designed specifically for Plaster of Paris (POP) cornices, drop ceilings, and gypsum boards without blistering or peel risk.",
       availableSizes = listOf(PaintSize.SIZE_20L),
       prices = mapOf(
-        PaintSize.SIZE_20L to 28600L
+        PaintSize.SIZE_20L to 22500L
       ),
       coverageSqmPerLiter = 11.0,
       dryingTimeHours = 1.0,
@@ -879,7 +878,7 @@ class SharonRepository {
         totalAmount = (25 * 28500L) + (15 * 56000L), // 712,500 + 840,000 = 1,552,500
         paymentReference = "ACC-REF-20261027-010439",
         status = OrderStatus.APPROVED_FOR_PICKUP,
-        approvedByAdmin = "Engr. Chief K. Okafor (SHP-ADM-9021)",
+        approvedByAdmin = "Mrs. Adaesze Chikaodiri Phillip (SHP-ADA-0816)",
         createdAt = System.currentTimeMillis() - 86400000L,
         antiFraudVerificationHash = "SHA256-9A8B7C6D-SHARON-SECURE"
       ),
@@ -946,7 +945,7 @@ class SharonRepository {
         period = AuditReportPeriod.MONTHLY,
         periodName = "October 2026 Monthly Audit",
         generatedDate = "28 Oct 2026",
-        generatedByAdmin = "Engr. Chief K. Okafor (SHP-ADM-9021)",
+        generatedByAdmin = "Mrs. Adaesze Chikaodiri Phillip (SHP-ADA-0816)",
         totalUnitsManufactured = 14200,
         totalUnitsSold = 11850,
         currentUnitsInStock = 2350,

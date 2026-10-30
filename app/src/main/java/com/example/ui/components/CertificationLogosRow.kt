@@ -103,7 +103,7 @@ fun CertificationLogosRow(
         CertBadgeItem(
           drawableId = R.drawable.ic_mancap_logo,
           title = "MANCAP",
-          sub = "Conformity",
+          sub = "CT-21237",
           testTag = "logo_mancap"
         )
 
@@ -111,7 +111,7 @@ fun CertificationLogosRow(
         CertBadgeItem(
           drawableId = R.drawable.ic_son_logo,
           title = "SON",
-          sub = "Standards",
+          sub = "NIS 278/280",
           testTag = "logo_son"
         )
 
@@ -119,7 +119,7 @@ fun CertificationLogosRow(
         CertBadgeItem(
           drawableId = R.drawable.ic_nis_logo,
           title = "NIS Mark",
-          sub = "CT-1620",
+          sub = "No. CT.-350",
           testTag = "logo_nis"
         )
       }
@@ -139,7 +139,7 @@ fun CertificationLogosRow(
           )
           Spacer(modifier = Modifier.height(4.dp))
           Text(
-            text = "• NIS Mark of Quality: Certificate No. CT-1620\n• MANCAP: Mandatory Conformity Assessment Programme (SON/MANCAP/NG/2026)\n• Standards Organisation of Nigeria: Approved under NIS 278 & NIS 280\n• Sharon Paints & Chemical Co. Nig. Ltd. (RC: 1984/Enugu)",
+            text = "• NIS Mark of Quality: Certificate No. CT.-350\n• MANCAP: Certificate No. CT-21237 (Mandatory Conformity Assessment Programme)\n• Standards Organisation of Nigeria: Approved under NIS 278 & NIS 280\n• Sharon Paints & Chemical Co. Nig. Ltd. (RC: 1984/Enugu)",
             style = MaterialTheme.typography.bodySmall.copy(fontSize = 11.sp, color = Color(0xFF334155))
           )
         }

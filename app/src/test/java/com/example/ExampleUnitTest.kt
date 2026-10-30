@@ -39,7 +39,12 @@ class ExampleUnitTest {
     // Verify Sharon Gloss has 4L drums only
     val gloss = products.first { it.id == "oil_gloss" }
     assertEquals(listOf(PaintSize.SIZE_4L), gloss.availableSizes)
-    assertEquals(15035L, gloss.getPrice(PaintSize.SIZE_4L))
+    assertEquals(17390L, gloss.getPrice(PaintSize.SIZE_4L))
+
+    // Verify Vineyard Matt has 20L only with factory rate 47,725
+    val vineyardMatt = products.first { it.id == "vineyard_matt" }
+    assertEquals(listOf(PaintSize.SIZE_20L), vineyardMatt.availableSizes)
+    assertEquals(47725L, vineyardMatt.getPrice(PaintSize.SIZE_20L))
 
     // Verify Auto paints have 4L cans only
     val auto = products.first { it.id == "auto_paints" }
@@ -146,7 +151,6 @@ class ExampleUnitTest {
   fun testStockAuditReceiptGeneration() {
     val receipt = repository.generateAuditReceipt(AuditReportPeriod.MONTHLY, "Mrs. Adaesze Chikaodiri Phillip (SHP-ADA-0816)")
     assertNotNull(receipt)
-  }
     assertTrue(receipt.receiptId.startsWith("AUD-MTH-"))
     assertTrue(receipt.inventoryValueNaira > 0)
     assertTrue(receipt.accessBankApprovedTransfers > 0)
